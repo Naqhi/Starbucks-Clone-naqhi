@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+
 import './App.css';
+import GreenBannerComponent from './components/GreenBannerComponent';
+import NavbarComponent from './components/NavbarComponent';
+import RecommendComponent from './components/RecommendComponents';
+import BaristaRecommendComponent from './components/BaristaRecommendComponent';
+import BannerComponent from './components/BannerComponent';
+import LatestOfferComponent from './components/LatestOfferComponent';
+import LearnMoreComponent from './components/LearnMoreComponent';
+import FooterComponent from './components/FooterComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  <NavbarComponent />
+  <GreenBannerComponent />
+  <RecommendComponent />
+  <BaristaRecommendComponent />
+  <BannerComponent />
+  <LatestOfferComponent />
+  <LearnMoreComponent />
+  <FooterComponent />
+  
+  
+  </>
+     
   );
 }
 

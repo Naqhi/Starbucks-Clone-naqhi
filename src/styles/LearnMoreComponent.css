@@ -1,0 +1,16 @@
+.image{
+    background-image: url("https://preprodtsbstorage.blob.core.windows.net/cms/uploads/coffee_culture_blog_web1_c6e691b286.jpg");
+    background-color: rgba(0,0,0,0.2);
+    background-blend-mode: multiply;
+    object-fit: cover;
+    border-radius: 8px;
+    height: 400px;
+    padding-top: 30px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.image:hover{
+    filter: brightness(50%);
+    transition: all 1s ease;
+}
